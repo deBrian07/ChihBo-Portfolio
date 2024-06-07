@@ -225,12 +225,30 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "image link",
-    school: "",
-    date: "Oct 2021 - Sep 2025",
-    grade: "",
-    desc: "",
-    degree: "",
+    img: "https://3.files.edl.io/0bfb/22/11/02/190427-7e773200-a6eb-490a-9adb-d4d086387aa8.png",
+    school: "San Marino High School",
+    date: "Aug 2021 - May 2025",
+    grade: "4.25 GPA",
+    desc: "I am currently attending San Marino High School with a 4.25 average GPA. SMHS is a very competitive school among all the schools nearby, including the classes, and extracurricular. I have taken several AP classes and received an A in the class and 5 on the exam, including AP Computer Science A, AP Calculus BC, AP Chemistry, etc.",
+    degree: "12th Grade",
+  },
+  {
+    id: 1,
+    img: "https://conferences.ucla.edu/wp-content/uploads/2021/01/uclalogo.png",
+    school: "UCLA Summer Session",
+    date: "June 2024 - Aug 2024",
+    grade: "TBD",
+    desc: "TBD",
+    degree: "Linear Algebra",
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS-bOsLvLHdhjQXAO0TG9nYVfaqEc_sAgTyw&s",
+    school: "Brown University Summer",
+    date: "June 2022 - July 2022",
+    grade: "A (94%)",
+    desc: "I attended the Brown University pre-college program, and I took the class “Real-World Networks: Using Math to Understand Complex Systems”. I was able to learn about network science and connect with professors and students at Brown. It was great experiencing college life as a high school student and taking a college-level class, especially at a top university like Brown. ",
+    degree: "Network Science",
   },
 ];
 
@@ -242,7 +260,7 @@ export const projects = [
     description:
       "Wordle Bot is a software developed with Python to solve wordles using the hints shown in the wordle game. It’s able to solve a wordle made by any word in under 5 guesses. It involves machine learning and other algorithms such as Information Theory and entropy. It has it’s own simulation which can be used to debug and modify the algorithm, in which it generates N (an integer) wordle games and perform the word-guessing process. At the end it will calculate the average amount of steps of N games. ",
     image:
-      "https://private-user-images.githubusercontent.com/94733710/337158684-db36f865-94a5-4c84-a567-ea475c8e01c8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc2NTgyNDYsIm5iZiI6MTcxNzY1Nzk0NiwicGF0aCI6Ii85NDczMzcxMC8zMzcxNTg2ODQtZGIzNmY4NjUtOTRhNS00Yzg0LWE1NjctZWE0NzVjOGUwMWM4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDA3MTIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0NDUzZTVhODhmMGM3Njg0ZDkzNmZmYzU2MTQxZTBiMDBkYTE1ZTM2MzFkZWE1ZjVjNTBmZjFhZTkzNmNjNDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Zu6hEcaJ1JYnsPaLwghUz2OLnvp22slUjqxrec3UwZg",
+      "https://raw.githubusercontent.com/deBrian07/ChihBo-Portfolio/main/public/images/Wordle%20Bot%20Demo.png",
     tags: [
       "Python",
       "TensorFlow",
@@ -262,7 +280,7 @@ export const projects = [
     description:
       "Spatialized Motion Sound Localization (SMSL) is a self-monitoring method that simultaneously estimates camera rotation and sound source location. It uses twin models trained on synchronized audio-visual data to mimic human spatial awareness without labeled data. The visual model predicts camera rotation, while the sound model estimates sound direction using binaural sound. A unique cross-view binaural mask helps the model understand spatial changes in both modalities. SMSL also includes a simulation tool that creates N audio-visual scenarios and calculates the average accuracy, indicating high performance.",
     image:
-      "https://github.com/deBrian07/SMSL/assets/94733710/fc6760a6-9f92-428a-b018-10ddd7dc3bbb",
+      "https://raw.githubusercontent.com/deBrian07/ChihBo-Portfolio/main/public/images/SMSL%20Proj.png",
     tags: [
       "Python",
       "PyTorch",
@@ -303,9 +321,9 @@ export const projects = [
     title: "FRC Game Piece Detector",
     date: "Dec 2022 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "A Python package that can be used on a co-processor (Raspberry PI or Jetson Nano) on a robot to detect game pieces. It uses Ultralytics YOLOv8 object detection model as the backbone and trained on over 1000 images of game pieces. It calculates the distance to each game pieces and the relative location of it, and the information will be sent to RoboRIO using network table. It was used in the 2023 FRC Game “CHARGED UP” and it was able to perform 3 pieces autonomous routine.",
     image:
-      "",
+      "https://raw.githubusercontent.com/deBrian07/ChihBo-Portfolio/main/public/images/FRC%20Game%20Pieces%20Detection.png",
     tags: [
       "Python",
       "PyTorch",
