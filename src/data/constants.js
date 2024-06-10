@@ -2,16 +2,14 @@ export const Bio = {
   name: "Chih-Bo Chen",
   roles: [
     "High School Student",
-    "Data Analyst",
-    "Software Engineer",
     "Athlete",
     "Programmer"
   ],
   description:
-    "I am a motivated high school student in the LA metropolitan area with a passion for software engineering and machine learning. I create software that solves real problems and helps people. As a Kaggle contestant, I participate in competitions that address important global issues.",
+    "I am a motivated high school student in the LA metropolitan area with a passion for engineering. I create software that solves real problems and helps people. As a Kaggle contestant, I participate in competitions that address important global issues.",
   github: "https://github.com/deBrian07",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/chih-bo-chen-60a0b81b8/",
   twitter: "https://x.com/debriann07",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -79,7 +77,7 @@ export const skills = [
           "https://icons.veryicon.com/png/o/education-technology/discipline-ball/badminton-2.png",
       },
       {
-        name: "First Robotics Competition",
+        name: "FRC 1160 Titanium Robotics",
         image:
           "https://www.firstinspires.org/sites/default/files/uploads/resource_library/brand/thumbnails/FIRST-Icon.png",
       },
