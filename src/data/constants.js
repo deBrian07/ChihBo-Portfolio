@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated high school student in the LA metropolitan area with a passion for engineering. I create software that solves real problems and helps people. As a Kaggle contestant, I participate in competitions that address important global issues.",
   github: "https://github.com/deBrian07",
   resume:
-    "",
+    "https://drive.google.com/file/d/1qsjT1H2WR8q_ANgHWy23pHly2Ldi1TqB/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/chih-bo-chen-60a0b81b8/",
   twitter: "https://x.com/debriann07",
   insta: "https://www.instagram.com/rishav_chanda/",
